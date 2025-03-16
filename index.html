@@ -1,25 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page Title</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <!-- Header content (e.g., logo, navigation) goes here -->
-        <h1>Welcome to Trustco. Landing Page</h1>
+      <nav class="navbar">
+        <div>
+          <div class="logo">
+            <img src="logo.png" alt="Trustco Logo" />
+          </div>
+          <div class="menu-toggle">☰</div>
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="#" class="active">Features</a></li>
+          <li><a href="#">Solutions</a></li>
+          <li><a href="#">Company</a></li>
+          <li><a href="#">Resources</a></li>
+          <li><a href="#">Contact</a></li>
+          <div class="auth-buttons mobile">
+            <button class="login">Log In</button>
+            <button class="signup">Sign Up</button>
+          </div>
+        </ul>
+        <div class="auth-buttons desktop">
+          <button class="login">Log In</button>
+          <button class="signup">Sign Up</button>
+        </div>
+      </nav>
     </header>
-    
+
     <main>
-        <!-- Main content goes here -->
-        <p>This is the main section of the landing page.</p>
+      <section id="hero">
+        <img src="/assets/Images/hero-section/Hero 5.png" alt="hero5" />
+        <div class="hero-content">
+          <h1>
+            Find High-Potential Customers with
+            <span class="highlight">Trustco.</span>
+          </h1>
+          <p>
+            We provide sales teams and professionals with the knowledge, skill,
+            and discipline they need to be 10x more successful.
+          </p>
+
+          <div class="cta-buttons">
+            <button class="primary-btn">Get Started</button>
+            <span>
+              <span
+                ><img src="/assets/Images/hero-section/Play.png" alt=""
+              /></span>
+              <button class="secondary-btn">Check Our Video</button>
+            </span>
+          </div>
+
+          <div class="reviews">
+            <img
+              src="/assets/Images/hero-section/trustpilot-logo.png"
+              alt="Trustpilot"
+            />
+            <span>⭐ 4900+ 5 Stars</span>
+          </div>
+        </div>
+
+        <img
+          src="/assets/Images/hero-section/Hero 6.png"
+          alt="hero6"
+          class="hero-image-second"
+        />
+      </section>
     </main>
-    
+
     <footer>
-        <!-- Footer content goes here -->
-        <p>&copy; 2025 Trustco. All rights reserved.</p>
+      <p>&copy; 2025 Trustco. All rights reserved.</p>
     </footer>
-</body>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navLinks = document.querySelector(".nav-links");
+
+        menuToggle.addEventListener("click", () => {
+          navLinks.classList.toggle("active");
+        });
+      });
+    </script>
+  </body>
 </html>
