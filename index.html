@@ -131,6 +131,21 @@
           navLinks.classList.toggle("active");
         });
       });
+
+      const section = document.getElementById("video-section");
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              section.classList.add("visible");
+            }
+          });
+        },
+        { threshold: 0.2 }
+      );
+
+      observer.observe(section);
     </script>
   </body>
 </html>
