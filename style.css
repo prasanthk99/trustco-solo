@@ -666,3 +666,39 @@ footer {
     margin: 20px auto;
   }
 }
+
+/* Numbers Section */
+
+#numbers {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Numbers Wrapper */
+.numbers-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+/* Number Box */
+.number-box {
+  text-align: center;
+  min-width: 150px;
+}
+
+.number-box h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #032c42;
+}
+
+.number-box p {
+  font-size: 16px;
+  color: #555;
+  margin-top: 5px;
+}
