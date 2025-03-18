@@ -671,7 +671,7 @@ footer {
 
 #numbers {
   text-align: center;
-  padding: 60px 20px;
+  padding: 60px 0;
   background-color: #f8f9fa;
   max-width: 1200px;
   margin: auto;
@@ -701,4 +701,83 @@ footer {
   font-size: 16px;
   color: #555;
   margin-top: 5px;
+}
+
+
+/* Meet Our Founder Section */
+
+.founder-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+}
+
+.founder-wrapper {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  gap: 40px;
+}
+
+/* Text Block */
+.founder-text-block {
+  flex: 1;
+  text-align: left;
+}
+
+.founder-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #032c42;
+}
+
+.founder-quote {
+  font-size: 16px;
+  font-style: italic;
+  color: #555;
+  margin-top: 20px;
+  font-weight: normal;
+}
+
+.founder-name {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.founder-role {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Call-to-Action */
+.founder-cta {
+  background-color: #032c42;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.founder-cta:hover {
+  background-color: #025f87;
+}
+
+/* Image Styling */
+.founder-image-container {
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.founder-main-image {
+  width: 100%;
 }
