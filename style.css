@@ -540,3 +540,9 @@ footer {
   color: #333;
   line-height: 1.5;
 }
+
+@media screen and (max-width: 768px) {
+  .benefits-header{
+    text-align: center;
+  }
+}
