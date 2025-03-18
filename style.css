@@ -781,3 +781,23 @@ footer {
 .founder-main-image {
   width: 100%;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .founder-wrapper {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .founder-text-block{
+    text-align: center;
+  }
+
+  .founder-cta{
+    margin: auto;
+  }
+
+  .founder-image-container {
+      margin-top: 30px;
+  }
+}
