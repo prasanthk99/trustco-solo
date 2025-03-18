@@ -453,8 +453,6 @@ footer {
   }
 }
 
-
-
 /* Benefits Section */
 
 #benefits {
@@ -505,7 +503,7 @@ footer {
 
 /* Benefit Card */
 .benefit-card {
-  background-color: #F2F5F6;
+  background-color: #f2f5f6;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
@@ -542,7 +540,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  .benefits-header{
+  .benefits-header {
     text-align: center;
   }
 }
@@ -552,7 +550,7 @@ footer {
 #building-bridges {
   max-width: 1200px;
   margin: 50px auto;
-  /* padding: 40px; */
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -574,14 +572,12 @@ footer {
 .image-container img {
   width: 100%;
   border-radius: 10px;
-  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
   padding-right: 40px;
 }
 
 /* Award Badge */
 .award-badge {
   position: absolute;
-  /* bottom: -20px; */
   top: 70%;
   right: -8%;
   transform: translatey(-50%);
@@ -597,7 +593,6 @@ footer {
   justify-content: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   border: 2px white solid;
-  /* margin: auto; */
 }
 
 .award-badge span {
@@ -649,4 +644,25 @@ footer {
 
 #building-bridges .cta-button:hover {
   background-color: #005a85;
+}
+
+@media screen and (max-width: 768px) {
+  #building-bridges .content-wrapper {
+    flex-direction: column;
+  }
+
+  #building-bridges .text-content {
+    max-width: 100%;
+    order: 1;
+    text-align: center;
+  }
+
+  .image-container {
+    max-width: 100%;
+    order: 2;
+  }
+
+  #building-bridges .cta-button {
+    margin: 20px auto;
+  }
 }
