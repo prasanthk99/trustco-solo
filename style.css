@@ -996,4 +996,21 @@ footer {
   font-weight: bold;
 }
 
+/* Responsive Blog Design */
+@media (max-width: 900px) {
+  #blogs .header {
+    display: block;
+  }
+  #blogs h2 {
+    font-size: 2rem;
+  }
+  #blogs .blog-list {
+    /* flex-direction: column; */
+    width: 100%;
+    overflow: auto;
 
+  }
+  #blogs .blog-card {
+    min-width: 80%;
+  }
+}
