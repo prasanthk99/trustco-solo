@@ -896,4 +896,16 @@ footer {
   background-color: #032c42;
 }
 
+/* Responsive */
+@media (max-width: 768px) {
+  .testimonials-header{
+    display: block;
+    font-size: 2rem;
+  }
 
+  .testimonials-container {
+      display: flex;
+      overflow: scroll;
+  }
+
+}
