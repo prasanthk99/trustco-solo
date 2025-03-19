@@ -1126,3 +1126,97 @@ footer {
     right: 0;
   }
 }
+
+
+/* Footer Styling */
+
+#footer {
+  background-color: #f8f9fa;
+  color: #333;
+  padding: 50px 80px;
+  border-top: 3px solid #000;
+  position: relative;
+}
+
+/* Footer Layout */
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+/* Brand Section */
+.footer-brand {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.footer-logo {
+  width: 180px;
+  margin-bottom: 15px;
+}
+
+.footer-description {
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #555;
+  text-align: left;
+  padding-left: 80px;
+}
+
+/* Social Media Icons */
+.social-icons {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.social-icons img {
+  width: 32px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.social-icons a:hover img {
+  opacity: 0.7;
+}
+
+/* Footer Links */
+.footer-links {
+  display: flex;
+  gap: 80px;
+}
+
+.footer-column h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.footer-column{
+  text-align: left;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+  font-weight: normal;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-column ul li a:hover {
+  color: #007bff;
+}
+
+
