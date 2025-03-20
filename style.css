@@ -1219,4 +1219,25 @@ footer {
   color: #007bff;
 }
 
+/* Footer Responsive Styles */
+@media (max-width: 768px) {
+  #footer {
+      padding: 40px 20px;
+  }
+
+  .footer-container {
+      flex-direction: column;
+      text-align: center;
+      gap: 30px;
+  }
+
+  .footer-brand {
+      max-width: 100%;
+  }
+
+  .footer-links {
+      flex-direction: column;
+      gap: 20px;
+  }
+}
 
